@@ -34,7 +34,6 @@ cd to_do_list_app
 5. Abra o arquivo db/conn.php e configure as credenciais do MySQL:
 
 ```
-Copiar código
 $host = 'localhost';
 $user = 'root'; 
 $password = ''; 
