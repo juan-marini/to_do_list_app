@@ -16,22 +16,22 @@ O To-Do List App é uma aplicação web simples, construída com PHP e MySQL, qu
 
 Siga os passos abaixo para clonar e executar o projeto:
 
-1° Clone este repositório:
+1. Clone este repositório:
 
 ```
 git clone https://github.com/juan-marini/to_do_list_app.git
 ```
 
-2° Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto:
 
 ```
 cd to_do_list_app
 ```
-3° Certifique-se de ter um servidor Apache com PHP e MySQL rodando localmente (ex: XAMPP ou WAMP).
+3. Certifique-se de ter um servidor Apache com PHP e MySQL rodando localmente (ex: XAMPP ou WAMP).
 
-4° Crie um banco de dados MySQL chamado todolist (o banco e a tabela serão criados automaticamente ao acessar a aplicação).
+4. Crie um banco de dados MySQL chamado todolist (o banco e a tabela serão criados automaticamente ao acessar a aplicação).
 
-5° Abra o arquivo db/conn.php e configure as credenciais do MySQL:
+5. Abra o arquivo db/conn.php e configure as credenciais do MySQL:
 
 ```
 php
@@ -41,7 +41,7 @@ $user = 'root';
 $password = ''; 
 $dbname = 'todolist';
 ```
-6° Acesse o projeto no navegador, por exemplo:
+6. Acesse o projeto no navegador, por exemplo:
 ```
 http://localhost/to_do_list_app/index.php
 ```
