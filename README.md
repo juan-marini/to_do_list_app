@@ -28,7 +28,9 @@ Siga os passos abaixo para clonar e executar o projeto:
      git clone https://github.com/juan-marini/to_do_list_app.git
      ```
 2. Navegue até o diretório do projeto:
-  ```cd to_do_list_app```
+```
+cd to_do_list_app
+```
 3. Certifique-se de ter um servidor Apache com PHP e MySQL rodando localmente (ex: XAMPP ou WAMP).
 4. Inicie o Apache e o MySQL no painel de controle do XAMPP ou WAMP.
 5. Abra o arquivo db/conn.php e configure as credenciais do MySQL:
@@ -37,10 +39,10 @@ Siga os passos abaixo para clonar e executar o projeto:
   $user = 'root'; 
   $password = ''; 
   $dbname = 'todolist';
-  Acesse o projeto no navegador:
   ````
-6. Abra seu navegador e digite a seguinte URL:
-``http://localhost/to_do_list_app/index.php``
+6. Acesse o projeto no navegador:
+  - Abra seu navegador e digite a seguinte URL:
+    ``http://localhost/to_do_list_app/index.php``
 7. O banco de dados e a tabela serão criados automaticamente ao acessar a aplicação pela primeira vez.
 
 ## Funcionalidades Implementadas
