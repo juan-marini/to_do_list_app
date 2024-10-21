@@ -1,4 +1,4 @@
-/* Body and overall styling */
+
 body {
     background-color: #f8f9fa;
     font-family: 'Roboto', sans-serif;
@@ -9,7 +9,7 @@ body {
     padding-top: 60px;
 }
 
-/* Header Styling */
+
 .task-header h1 {
     font-size: 40px;
     font-weight: bold;
@@ -21,7 +21,7 @@ body {
     color: #6c757d;
 }
 
-/* Input Styling */
+
 .task-input .input-group {
     border-radius: 10px;
 }
@@ -45,7 +45,7 @@ body {
     color: white;
 }
 
-/* Task List and Card Styling */
+
 .task-list {
     margin-top: 30px;
 }
@@ -90,7 +90,7 @@ body {
     color: white;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
     .task-header h1 {
         font-size: 32px;
