@@ -9,7 +9,7 @@ O To-Do List App é uma aplicação web simples, construída com PHP e MySQL, qu
 
 * PHP: Backend e interação com o banco de dados.
 * MySQL: Para o armazenamento e gerenciamento de tarefas.
-* Bootstrap 5: Framework CSS para estilização e design responsivo.
+* Bootstrap 5: Para estilização e design responsivo.
 * HTML/CSS: Estrutura e design da interface.
   
 ## Como Executar o Projeto
