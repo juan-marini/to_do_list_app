@@ -11,8 +11,13 @@ O To-Do List App é uma aplicação web simples, construída com PHP e MySQL, qu
 * MySQL: Para o armazenamento e gerenciamento de tarefas.
 * Bootstrap 5: Para estilização e design responsivo.
 * HTML/CSS: Estrutura e design da interface.
-  
-## Como Executar o Projeto
+
+## Funcionalidades Implementadas
+* Adicionar Tarefa: Os usuários podem adicionar uma nova tarefa com descrição e prazo.
+* Listar Tarefas: Exibe todas as tarefas salvas no banco de dados.
+* Editar Tarefa: Permite modificar uma tarefa existente.
+* Excluir Tarefa: Remove uma tarefa da lista.
+* Banco de Dados Automático: O banco de dados e a tabela de tarefas são criados automaticamente ao acessar o sistema pela primeira vez.
 
 ## Como Executar o Projeto
 
@@ -43,13 +48,6 @@ cd to_do_list_app
 6. **Abra seu navegador e digite a seguinte URL**
   ``http://localhost/to_do_list_app/index.php``
 7. **O banco de dados e a tabela serão criados automaticamente ao acessar a aplicação pela primeira vez.**
-
-## Funcionalidades Implementadas
-* Adicionar Tarefa: Os usuários podem adicionar uma nova tarefa com descrição e prazo.
-* Listar Tarefas: Exibe todas as tarefas salvas no banco de dados.
-* Editar Tarefa: Permite modificar uma tarefa existente.
-* Excluir Tarefa: Remove uma tarefa da lista.
-* Banco de Dados Automático: O banco de dados e a tabela de tarefas são criados automaticamente ao acessar o sistema pela primeira vez.
 
 ## Linha de Pensamento
 Durante o desenvolvimento deste projeto, enfrentei alguns desafios, principalmente relacionados à divisão das responsabilidades no código e à manipulação do banco de dados.
