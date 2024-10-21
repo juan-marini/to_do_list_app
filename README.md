@@ -41,7 +41,7 @@ cd to_do_list_app
   $dbname = 'todolist';
   ````
 6. Acesse o projeto no navegador:
-  - Abra seu navegador e digite a seguinte URL:
+- Abra seu navegador e digite a seguinte URL:
     ``http://localhost/to_do_list_app/index.php``
 7. O banco de dados e a tabela serão criados automaticamente ao acessar a aplicação pela primeira vez.
 
