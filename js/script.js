@@ -4,14 +4,12 @@ function toggleTaskStatus(checkbox) {
     const taskCard = checkbox.closest('.task-card');
     const taskTitle = taskCard.querySelector('.task-title');
 
-    // Atualiza a UI
     if (checkbox.checked) {
         taskTitle.classList.add('completed');
     } else {
         taskTitle.classList.remove('completed');
     }
 
-    // Envia a atualização para o backend
     fetch('functions/update_status.php', {
         method: 'POST',
         headers: {
