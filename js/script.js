@@ -1,6 +1,6 @@
 function toggleTaskStatus(checkbox) {
     const taskId = checkbox.getAttribute('data-task-id');
-    const newStatus = checkbox.checked ? 'completado' : 'pendente'; // Novo status baseado no checkbox
+    const newStatus = checkbox.checked ? 'completado' : 'pendente';
     const taskCard = checkbox.closest('.task-card');
     const taskTitle = taskCard.querySelector('.task-title');
 
