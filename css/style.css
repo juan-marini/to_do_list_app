@@ -66,20 +66,12 @@ body {
     color: #6c757d;
 }
 
-.btn-outline-success {
-    border: none;
-    color: #28a745;
-}
 
 .btn-outline-danger {
     border: none;
     color: #dc3545;
 }
 
-.btn-outline-success:hover {
-    background-color: #28a745;
-    color: white;
-}
 
 .btn-outline-danger:hover {
     background-color: #dc3545;
@@ -98,14 +90,12 @@ body {
 
 .btn-edit-custom {
     color: #ffc107;
-    background-color: transparent;
-    border: 1px solid #ffc107;
+    border: none;
 }
 
 .btn-edit-custom:hover {
     background-color: #ffc107;
     color: white;
-    border: 1px solid #ffc107;
 }
 
 @media (max-width: 768px) {
